@@ -1,0 +1,179 @@
+.main-container{ 
+    height:100vh;
+    display:flex;
+    align-items: center;    
+    justify-content: center;
+}
+
+.component1{
+    height: 50vh;
+    background-color: rgba(0, 173, 255, 1);
+}
+
+.component2{
+    height: 50vh;
+    background-color: #999;
+}
+
+.ReactTable .rt-thead .rt-resizable-header-content{
+    text-align:left;
+    font-weight:bold;
+}
+
+.avoid-clicks {
+    pointer-events: none;
+}
+
+.table-bordered td, .table-bordered th {
+    height: 100px;
+}
+.table-bordered {
+   border: 0;
+}
+
+table tr{
+    position: relative;
+}
+table td {
+    border: 3px solid #11bb9cb8;
+    padding: 50px;
+    border-radius:2px;
+}
+
+table tr:first-child td {
+border-top: 0;
+border-right: 0;
+}
+
+table tr:nth-child(2) td {
+    border-right: 0;
+}
+
+table tr:last-child td {
+    border-right: 0;
+}
+
+
+
+table tr:last-child td {
+    border-bottom: 0;
+}
+    
+table tr:first-child td:first-child {
+    border-left: 0;
+}
+
+table tr:first-child td:last-child {
+    border-right: 0;
+}
+
+table tr:nth-child(2) td:first-child {
+    border-left: 0;
+}
+
+table tr:nth-child(2) td:last-child {
+    border-right: 0;
+}
+
+table tr:last-child td:first-child {
+    border-left: 0;
+}
+
+table tr:last-child td:last-child {
+    border-right: 0;
+}
+
+table tr td{
+    font-size:40px;
+    color:#11bb9cb8;
+    position: relative;
+}
+table tr td span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-success{
+    color: #28a745!important;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.text-danger{
+    color: #28a745!important;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.show-line-1{
+    height: 2px;
+    width: 500px;
+    background: red;
+    position: fixed;
+    left: 34%;
+    top: 45%;
+}
+
+.show-line-2{
+    height: 2px;
+    background: red;
+    width: 500px;
+    position: fixed;
+    top: 59%;
+    left: 34%;
+}
+
+
+.show-line-3{
+    height: 2px;
+    background: red;
+    width: 500px;
+    position: fixed;
+    top: 73.5%;
+    left: 34%;
+}
+
+.show-line-4{
+    height: 310px;
+    width: 2px;
+    background: red;
+    position: fixed;
+    left: 39.5%;
+    top:36%;
+}
+
+.show-line-5{
+    height: 310px;
+    width: 2px;
+    background: red;
+    position: fixed;
+    left: 49.8%;
+    top: 36%;
+}
+
+.show-line-6{
+    height: 310px;
+    width: 2px;
+    background: red;
+    position: fixed;
+    left: 60.4%;
+    top: 36%;
+}
+.digonalLine,
+.digonalRight {
+    position: absolute;
+    border-bottom: 2px solid red;
+    bottom: 171px;
+    left: 0;
+    transform: rotate(32deg);
+    height: 10px;
+    width: 100%;
+}
+.digonalRight {
+    transform: rotate(-32deg);
+    bottom: 171px;
+}
